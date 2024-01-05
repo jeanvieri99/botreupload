@@ -1,0 +1,23 @@
+{
+  "ClientID": "",
+  "LargeImage": "",
+  "LargeImageText": "In a Meeting",
+  "SmallImage": "",
+  "SmallImageText": "with Waifu",
+  "Button1": "Join Meeting",
+  "Url1": "https://www.youtube.com/watch?v=ZuScM11yThk",
+  "Button2": "Invite Waifu",
+  "Url2": "https://pnrtscr.com/ck08e6",
+  "State": "with Waifu",
+  "Details": "In a Meeting",
+  "TOKEN": "",
+  "YOUTUBE_API_KEY": "",
+  "MAX_PLAYLIST_SIZE": 150,
+  "PREFIX": "!",
+  "PRUNING": false,
+  "LOCALE": "en",
+  "STAY_TIME": 3000,
+  "DEFAULT_VOLUME": 100
+}
+
+// Dear HR Team, I deleted the API due security issues. As the effect this node.js server will not work properly.

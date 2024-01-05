@@ -1,0 +1,152 @@
+{
+	"help": {
+		"description": "",
+		"embedTitle": "{botname} Help",
+		"embedDescription": ""
+	},
+	"invite": {
+		"description": ""
+	},
+	"loop": {
+		"description": "",
+		"errorNotQueue": "There is nothing playing.",
+		"result": "Loop is now {loop}"
+	},
+	"lyrics": {
+		"description": "",
+		"errorNotQueue": "There is nothing playing.",
+		"lyricsNotFound": "Gapunya Liriknya buat lagu {title}.",
+		"embedTitle": "Lirik untuk {title}"
+	},
+	"move": {
+		"description": "",
+		"errorNotQueue": "There is no queue.",
+		"usagesReply": "Usage: {prefix}move <Queue Number>",
+		"result": "<@{author}> 🚚 mindahin **{title}** ke {index} di antrian."
+	},
+	"nowplaying": {
+		"description": "",
+		"errorNotQueue": "There is nothing playing.",
+		"embedTitle": "Now playing",
+		"live": " ◉ LIVE",
+		"timeRemaining": "Waktu tersisa: {time}"
+	},
+	"pause": {
+		"description": "",
+		"errorNotQueue": "There is nothing playing.",
+		"result": "<@{author}> ngajak ribut, musiknya di pause."
+	},
+	"ping": {
+		"description": "",
+		"result": "Ping Basecamp ayam ke API Discord : {ping} ms"
+	},
+	"play": {
+		"description": "",
+		"errorNotChannel": "",
+		"errorNotInSameChannel": "",
+		"usageReply": "",
+		"missingPermissionConnect": "GABISA MASUK COKK",
+		"missingPermissionSpeak": "GABISA NGOMONG COK",
+		"queueAdded": "Si <@{author}> nambahin lagu **{title}**  ",
+		"cantJoinChannel": "Gabisa masuk ke Voice Channelnya COKKK",
+		"queueEnded": "HABIS SUDAH MUSIKNYA",
+		"queueError": "",
+		"startedPlaying": "Ayam memutarkan lagu **{title}**",
+		"skipSong": "<@{author}> ngeskip lagunya",
+		"pauseSong": "<@{author}> ngepause lagunya",
+		"resumeSong": "<@{author}> ngelanjutin lagi lagunya",
+		"unmutedSong": "<@{author}> nge unmute lagunya...",
+		"mutedSong": "<@{author}> nge mute musicnya, kaya yang itu tukang mute",
+		"decreasedVolume": "<@{author}> kupingnya keluar darah, sekarang volumenya {volume}%",
+		"increasedVolume": "<@{author}> kupingnya bolotan, sekarang volumenya {volume}%",
+		"loopSong": "<@{author}> pencet ngulang ngulang lagunya, sekarang ngulangnya {loop}",
+		"stopSong": "<@{author}> ngestop musiknya, katanya ga suka",
+		"leaveChannel": "Bai baiii,,,",
+		"songNotFound": "Gaketemu cuy"
+	},
+	"playlist": {
+		"description": "Play a playlist from youtube",
+		"usagesReply": "Usage: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+		"errorNotChannel": "You need to join a voice channel first!",
+		"errorNotInSameChannel": "You must be in the same channel as {user}",
+		"missingPermissionConnect": "Cannot connect to voice channel, missing permissions",
+		"missingPermissionSpeak": "I cannot speak in this voice channel, make sure I have the proper permissions!",
+		"errorNotFoundPlaylist": "Playlist not found :(",
+		"fetchingPlaylist": "⌛ fetching the playlist...",
+		"playlistCharLimit": "\ndan banyak banget lagu dia anjir...",
+		"startedPlaylist": "<@{author}> muter playlist spotify, gile dia punya spotify cuy",
+		"cantJoinChannel": "Could not join the channel: {error}",
+		"usageReply": "playlist.usageReply"
+	},
+	"queue": {
+		"description": "",
+		"missingPermissionMessage": "",
+		"errorNotQueue": "GAADA LAGU COY",
+		"currentPage": "Halaman - ",
+		"embedTitle": "Daftar Lagu Selanjutnya\n",
+		"embedCurrentSong": "**Sedang Diputar - [{title}]({url})**\n\n{info}"
+	},
+	"remove": {
+		"description": "",
+		"errorNotQueue": "APA YANG MAU DIHAPUS?",
+		"usageReply": "Cara pakeknya !remove (urutan lagu)",
+		"result": "Si <@{author}> gasuka lagu **{title}**, diapus sama dia. PUKULIN!!! "
+	},
+	"resume": {
+		"description": "",
+		"errorNotQueue": "GAADA LAGU COY",
+		"resultNotPlaying": "<@{author}> dilanjutin lagi musiknya",
+		"errorPlaying": ""
+	},
+	"search": {
+		"description": "",
+		"usageReply": "",
+		"errorAlreadyCollector": "Itu jawab dulu **TOLOL**",
+		"errorNotChannel": "MASUK KE VOICE CHAT DULU **TOLOL**",
+		"resultEmbedTtile": "**AYO DIPILIH COK LAGU NYA,,,**",
+		"resultEmbedDesc": "Hasil untuk: **{search}**"
+	},
+	"skip": {
+		"description": "",
+		"errorNotQueue": "Gaada lagu lagi cok abis ini",
+		"result": "Si <@{author}> ngeskip lagunya. Dia bilang lagu **TOLOL**"
+	},
+	"skipto": {
+		"description": "",
+		"usageReply": "Cara pakenya !skipto (urutan berapa)",
+		"errorNotQueue": "Gaada urutan lagu",
+		"errorNotValid": "The queue is only {length} songs long!",
+		"result": "Si <@{author}> ngeskip ke lagu {arg} , pukulin cok dia ga suka lagu lu"
+	},
+	"stop": {
+		"description": "",
+		"errorNotQueue": "Stap stop, apanya yang mau di stop anjeng",
+		"result": "Pukulin si <@{author}>, dia stop lagunya. Katanya gasuka!!! "
+	},
+	"uptime": {
+		"description": "",
+		"result": "Aku sudah hidup selama: `{days} day(s),{hours} hours, {minutes} minutes, {seconds} seconds`"
+	},
+	"volume": {
+		"description": "",
+		"errorNotQueue": "**Lu mau dengerin suara setan?**",
+		"errorNotChannel": "**MASUK KE VOICE CHANNEL DULU TOLOL**",
+		"currentVolume": "Volume sekarang ini adalah: **{volume}%**",
+		"errorNotNumber": "Woi **tolol**! Volumenya Pake angka **tolol**",
+		"errorNotValid": "Volumenya dari 0 - 100 cokkk!!!!",
+		"result": "Level Volume Sekarang : **{arg}%**"
+	},
+	"common": {
+		"on": "**on**",
+		"off": "**off**",
+		"enabled": "**enabled**",
+		"disabled": "**disabled**",
+		"errorNotChannel": "You need to join a voice channel first!",
+		"cooldownMessage": "please wait {time} more second(s) before reusing the `{name}` command.",
+		"errorCommand": "There was an error executing that command."
+	},
+	"pruning": {
+		"description": "pruning.description",
+		"result": "pruning.result"
+	}
+}
